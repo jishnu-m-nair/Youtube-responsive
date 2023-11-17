@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.transparent{
+    height: 50px;
+    width: 50px;
+    background-color:aqua;
+    border: 200px solid transparent;
+    border-right: 200px solid red;
+    text-align: center;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+
+}
+.transparent h1{
+    position: absolute;
+    top: -20px;
+    right:-40px
+}
